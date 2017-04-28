@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>WayBansuan.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>เส้นทางA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				100.0921013827447,17.66008625930338,0 100.0919279647128,17.66032421048942,0 100.0922726556831,17.66043991403276,0 100.0925368571686,17.6605219456939,0 100.0927279112274,17.66051263215142,0 100.0932110027196,17.66033016677754,0 100.0932639900628,17.66050615445697,0 100.0933799265088,17.6606601994187,0 100.0935318996795,17.66079305216779,0 100.0937276542866,17.66089182403416,0 100.0939354367212,17.66100749156803,0 100.0941923946141,17.66110685446974,0 100.0956316443515,17.66168109937284,0 100.0961065961214,17.66110714713766,0 100.0967791377078,17.66051271928184,0 100.0972489343811,17.66015746887212,0 100.0976514667975,17.65983776894635,0 100.0983394963265,17.65955753936457,0 100.0990950005692,17.65922287750402,0 100.1001638339992,17.65875773146864,0 100.1011655641096,17.65834473993189,0 100.1025876612382,17.65774006799632,0 100.1042276574489,17.65714284897397,0 100.1048622548617,17.65688921259699,0 100.1053524585492,17.65660085824785,0 100.105781068051,17.65633366078355,0 100.1060957639395,17.65618130452683,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
