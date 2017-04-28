@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BodyHome.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffaa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>BodyHome</name>
+		<description><![CDATA[<img src=""><img style="max-width:500px;" src="file:///C:/Users/user/Pictures/Mykml.jpg">]]></description>
+		<LookAt>
+			<longitude>100.0921487071684</longitude>
+			<latitude>17.66000051578168</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001298046536187018</heading>
+			<tilt>30.00056752428353</tilt>
+			<range>126.4445760129375</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<gx:drawOrder>10</gx:drawOrder>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						100.0919122995772,17.66030472551793,9.999999999999998 100.0918574795786,17.66028150047886,9.999999999999998 100.0915176017567,17.66013727926896,9.999999999999998 100.0916309688569,17.65978830210846,9.999999999999998 100.0921616025744,17.65999068420544,9.999999999999998 100.0919122995772,17.66030472551793,9.999999999999998 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
